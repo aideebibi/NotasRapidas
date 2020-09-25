@@ -1,6 +1,6 @@
 # Crear un env
-Paso 1: Crear un directorio por ejemplo "mkdir tmp"
-Paso 2: Ejecutar "virtualenv env" 
+- Paso 1: Crear un directorio por ejemplo "mkdir tmp"
+- Paso 2: Ejecutar "virtualenv env" 
 Paso 3: Entrar al directorio env "cd env"
 Paso 4: Entrar al directorio Scripts "cd Scripts"
 Paso 5: Ejecutar el script activate "./activate"
