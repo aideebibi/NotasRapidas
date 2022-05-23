@@ -66,7 +66,7 @@ Vamos a analizar el archivo que acaba de cargar Bob:
 
 ## Accediendo a los archivos del sistema
 Una vez que Bob sube el archivo al sistema obtiene lo siguiente:
-![Bob XXE](/img/XXE_2.png)
+![Bob XXE](/img/XXE_2.PNG)
 
 Bob ahora tiene acceso al archivo del servidor web de BatchTRADER /etc/passwd. Analicemos cómo se explotó la falla de procesamiento XXE.
 Mediante el uso de entidades XML, la palabra clave ***SYSTEM*** hace que un analizador XML lea datos de un URIy permite sustituirlos en el documento.
